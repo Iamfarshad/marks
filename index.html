@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+</head>
+<body >
+<section class="w-full h-screen  flex justify-center items-center">
+
+    <div class=" absolute w-full h-screen">
+        <img class="w-full h-screen  brightness-70" src="https://wallpapers.com/images/featured/best-ever-desktop-bgt6dccypy1dfk0c.jpg" alt="">
+    </div>
+   
+
+    <form id="myForm" class=" relative flex  w-3/5 h-5/6 p-7  flex-col  backdrop-opacity-5 backdrop-invert bg-white/20 rounded-lg border-2 border-black">
+
+        <!--heading section-->
+        <div class="text-2xl font-bold flex justify-center">
+            <span>MARKS CALCULATOR</span>
+        </div >
+
+    <!--number section-->
+
+    <div class="flex flex-wrap gap-10 mt-5 overflow-scroll sm:justify-center lg:justify-center xl:justify-between p-3">
+
+
+<div class="w-full sm:w-full lg:w-1/4">
+    <label for="number-input" class="block mb-2 text-sm font-medium text-black ">Enter Telugu Marks*</label>
+    <input type="number" id="c1" aria-describedby="helper-text-explanation" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5 backdrop-opacity-5 backdrop-invert bg-white/30" required />
+</div>
+
+
+<div class="w-full sm:w-full lg:w-1/4">
+    <label for="number-input" class="block mb-2 text-sm font-medium text-black ">Enter Hindi Marks*</label>
+    <input type="number" id="c2" aria-describedby="helper-text-explanation" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5   backdrop-opacity-5 backdrop-invert bg-white/30  " required />
+</div>
+
+<div class="w-full sm:w-full lg:w-1/4">
+    <label for="number-input" class="block mb-2 text-sm font-medium text-black ">Enter English Marks* </label>
+    <input type="number" id="c3" aria-describedby="helper-text-explanation" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5  backdrop-opacity-5 backdrop-invert bg-white/30   " required />
+</div>
+
+<div class="w-full sm:w-full lg:w-1/4">
+    <label for="number-input" class="block mb-2 text-sm font-medium text-black ">Enter Iemt Marks*</label>
+    <input type="number" id="c4" aria-describedby="helper-text-explanation" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5  backdrop-opacity-5 backdrop-invert bg-white/30   " required />
+</div>
+
+
+<div class="w-full sm:w-full lg:w-1/4">
+    <label for="number-input" class="block mb-2 text-sm font-medium text-black ">Enter Bee Marks*</label>
+    <input type="number" id="c5" aria-describedby="helper-text-explanation" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5   backdrop-opacity-5 backdrop-invert bg-white/30  " required />
+</div>
+
+
+<div class="w-full sm:w-full lg:w-1/4">
+    <label for="number-input" class="block mb-2 text-sm font-medium text-black ">Enter Edc Marks*</label>
+    <input type="number" id="c6" aria-describedby="helper-text-explanation" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5   backdrop-opacity-5 backdrop-invert bg-white/30  " required />
+</div>
+
+<div class="w-full ">
+    <label for="Name" class="block mb-2 text-sm font-medium text-black ">Enter Your Name:</label>
+      <input type="text" id="myname" class=" bg-white text-sm rounded-lg focus:ring-cyan-950 dark:focus:ring-cyan-950 block w-full p-2.5 backdrop-opacity-5 backdrop-invert bg-white/30" required>
+</div>
+
+ <div class="w-full p-2 flex">
+
+    <button type="submit" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2 w-1/2">Calculate</button>
+
+    <button type="button" id="myButton" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none  font-medium rounded-lg text-lg px-5 py-2.5 text-center me-2 mb-2 w-1/2">Reset</button>
+ 
+</div>
+
+
+<span class="mt-5 font-bold text-black text-2xl text-amber-500" id="temp">
+</span>
+ 
+</div>
+
+        
+    </form>
+
+</section>
+   
+    
+</body>
+<script src="script.js"></script>
+</html>
